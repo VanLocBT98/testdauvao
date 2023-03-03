@@ -27,10 +27,7 @@ export default function Register({}: Props) {
         message: "Email phải có định dạng test@gmail.com",
       }),
     passWord: string().required("Mật khẩu không được để trống"),
-    // .matches(/(?!^[0-9]*$)(?!^[a-zA-Z]*$)^([a-zA-Z0-9]{6,50})$/g, {
-    //   message:
-    //     "Mật khẩu tối thiểu 8 kí tự , gồm ít nhất 1 chữ cái , 1 số , không kí tự đặc biệt",
-    // }),
+    
     name: string()
       .required("Tên không được để trống")
       .matches(
