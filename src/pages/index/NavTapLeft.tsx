@@ -111,7 +111,7 @@ export default function NavTapLeft({}: Props) {
             className="w-10 h-10 mr-2 rounded-full"
           ></img>
           <div>
-            <h3>{infouser}</h3>
+            <h3 className="font-bold">{infouser}</h3>
             <p>Report bugs</p>
           </div>
         </div>
